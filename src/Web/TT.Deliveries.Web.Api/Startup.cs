@@ -25,6 +25,7 @@ namespace TT.Deliveries.Web.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TT.Deliveries.Web.Api", Version = "v1" });
