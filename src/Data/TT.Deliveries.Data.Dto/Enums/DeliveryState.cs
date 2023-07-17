@@ -1,11 +1,11 @@
-namespace TT.Deliveries.Data.Dto
+namespace TT.Deliveries.Data.Dto.Enums
 {
     public enum DeliveryState
     {
         /// <summary>
         /// Defines a newly created delivery
         /// </summary>
-        Created = 0,
+        Created,
 
         /// <summary>
         /// The delivery has been approved by the recipient
@@ -25,6 +25,6 @@ namespace TT.Deliveries.Data.Dto
         /// <summary>
         /// The delivery has expired - outside permitted access window
         /// </summary>
-        Expired
+        Expired 
     }
 }
